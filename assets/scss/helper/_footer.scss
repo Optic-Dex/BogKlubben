@@ -1,0 +1,22 @@
+@import './variables';
+
+
+
+#footer_box1 {
+    display: flex;
+    justify-content: center;
+    a {
+        font-size: 26px;
+        color: black;
+        padding: 24px;
+    }
+}
+#footer_box2 {
+    display: flex;
+    justify-content: center;
+    img {
+        padding: 20px;
+        display: inline;
+        width: 5%;
+    }
+}

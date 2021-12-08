@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/script.js" defer></script>
+    <title>Bog Klubben</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./assets/img/logo.png" alt="" />
+        <h1>Velkommen til Bog Klubben</h1> 
+</header>
+<nav>   
+    <ul>
+        <li onclick="forside()"><a>Forside</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li onclick="kontakt()"><a>Kontakt</a></li>     
+</ul> 
+<input id="check" type="checkbox">
+        <label for="check">
+        <img  src="./assets/img/burger.png" alt="menu-logo"></label> 
+            <ul id="mobile-size">
+                <li onclick="forside()"><a>Forside</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li onclick="kontakt()"><a>kontakt</a></li>      
+        </ul>     
+</nav>
+<section id="pictureslide">
+<img id="slide" src="./assets/img/books1.jpg" alt="books" />
+</section>
+<main id="main">
+<section id="page_one">
+    <img id="page_one_box1" src="./assets/img/books4.jpg" alt="books" />
+    <article id="page_one_box2">
+        <h3>Bog Klubben Kan Tilbyde</h3>
+        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem voluptates provident consequatur voluptate animi praesentium. Corrupti aspernatur, sit ab tempora, inventore reiciendis nostrum iste optio modi, pariatur autem soluta exercitationem! amet consectetur adipisicing elit. Non iure neque in mollitia sunt, obcaecati aliquid dolores nostrum. Dolores quibusdam ea in libero nam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga qui veniam, vitae libero quisquam velit laudantium ex recusandae reiciendis eius dolor beatae? Saepe perspiciatis eos, quis nemo suscipit, repellat, harum fugit ullam ratione sint reiciendis architecto. Maiores ipsa veritatis velit.</p>
+    </article>
+    <img id="page_one_box4" src="./assets/img/books5.jpg" alt="books" />
+    <article id="page_one_box3">
+        <h3>Mød en foratter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laborum cupiditate corrupti sunt, pariatur vel iure dolores quibusdam animi, dolorem at delectus ut aperiam tenetur, perspiciatis similique quam reiciendis in. adipisicing elit. Non iure neque in mollitia sunt, obcaecati aliquid dolores nostrum. Dolores quibusdam ea in libero nam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem doloribus tenetur quasi assumenda, dignissimos ab veniam labore! Nam nobis animi repellendus tenetur, repudiandae consectetur libero reiciendis dignissimos dolorum alias. Alias ex officiis corporis inventore! Soluta ab omnis aut nobis in!</p>
+    </article>
+</section>
+<section id="page_two">
+    <div id="page_two_box1">
+        <h3>Send en mail til os</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nisi laudantium facilis possimus voluptatibus ratione incidunt porro nostrum sit doloremque nam eveniet harum veritatis, doloribus aliquid, dolorem laboriosam quia vitae!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo totam fuga reiciendis non sapiente inventore ipsam recusandae saepe, unde cum distinctio repellat, est molestiae expedita quae voluptas sed laborum? Fuga.
+    </p></div>
+    <div id="page_two_box2">
+        <form>
+            <fieldset>
+            <legend>Kontakt os</legend>
+            <label for="fname">Fornavn</label>
+            <input type="text" name="fname" id="fname">
+            <label for="ename">Efternavn</label>
+            <input type="text" name="ename" id="ename">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <label for="check">Acceptere at vi må sende en mail til dig</label>
+            <input type="checkbox" name="check" id="check">
+            <button type="button" onclick="formvalidation()">Send</button>
+        </fieldset>
+        </form>
+    </div>
+    
+</section>
+</main>
+    <footer>
+        <div id="footer_box1">
+            <a href="www.facebook.com">Facebook</a>
+            <a href="www.instagram.com">Instagram</a>
+            <a href="www.twitter.com">Twitter</a>
+            <a href="www.youtube.com">Youtube</a>
+        </div>
+        <div id="footer_box2">
+            <img src="./assets/img/facebook.png" alt="facebook"/>
+            <img src="./assets/img/instagram.png" alt="instagram"/>
+            <img src="./assets/img/twitter.png" alt="twitter" />
+            <img src="./assets/img/youtube.png" alt="youtube">
+        </div>
+        
+    </footer>
+</body>
+</html>

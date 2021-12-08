@@ -1,0 +1,77 @@
+@import './variables';
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: $color-cambrige-blue;
+    ul {
+        // postion relative to get the submenu to drop down from its parent
+        position: relative;
+        // display flex to get the menu to be horizontal
+        display: flex;
+        justify-content: flex-end;
+        li {
+                 padding: 15px 40px;     
+            a {
+                font-size: 21px;
+                color: black;
+                &:hover {
+                    background-color: $color-opal;
+                }
+               
+
+            }
+            // this is the submenu for the dropdown 
+            ul {
+                position: absolute;
+                display: none;
+            }
+            &:hover {
+                ul {
+                  
+                   display: block;
+                  }
+               }
+        } 
+    }
+}
+
+
+
+#mobile-size {
+    display: none;
+}
+nav {
+    input[type=checkbox]{
+        display: none;
+    }
+    img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) { 
+
+    nav {
+        ul {
+            display: none;
+        }
+        img {
+            display: inline-block;
+            width: 10%;
+            margin: 0 45%;
+        }
+        input[type=checkbox]{
+            &:checked ~{
+                #mobile-size {
+            display: block;
+            text-align: center;
+             }
+          
+          }
+        }
+    }
+
+}
